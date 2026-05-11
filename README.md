@@ -29,7 +29,21 @@ Lista detallada de componentes y materiales con cantidades aproximadas:
 Uso del polyscope en UR5, no instalación necesaria 
 
 ## ⚙️ Montaje y Ensamblado
-Paso1: Primero se generan los diseños de los pallets necesarios para la clasificación, en el caso del mas grande para colocar los 24 cubos de manera aleatoria de manera apilada y 2 pallets para colocar los 12 cubos correspondientes a cada material utilizado. 
+Paso1: Primero se generan los diseños de los pallets necesarios para la clasificación, en el caso del mas grande para colocar los 24 cubos de manera aleatoria de manera apilada y 2 pallets para colocar los 12 cubos correspondientes a cada material utilizado, las medidas de los pallets utilizados son los siguientes.
+
+<p align="center">
+  <img src="Imagenes/Medidad_Pallete1.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="Imagenes/Punto_Partida.jpg" width="700">
+</p>
+
+
+<p align="center">
+  <img src="Imagenes/Resultado_Completo.jpg" width="700">
+</p>
 
 
 
