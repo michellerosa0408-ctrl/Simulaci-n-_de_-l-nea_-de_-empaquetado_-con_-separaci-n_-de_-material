@@ -104,6 +104,14 @@ El desarrollo de esta línea de empaque automatizada permitió implementar un si
 Además, el proyecto integró conceptos de robótica, control industrial y automatización, demostrando cómo el uso de sensores digitales y rutinas programadas puede mejorar significativamente los procesos de producción y empaque en entornos industriales. El sistema de paletizado también permitió organizar los productos de forma ordenada y precisa, aumentando la eficiencia y seguridad del proceso.
 En conclusión, este proyecto representa una aplicación práctica de tecnologías industriales modernas, mostrando el impacto positivo de la automatización en la productividad, la calidad y la optimización de recursos dentro de una línea de producción.
 
+A continuacion, el link de abajo es la carpeta de google drive donde se encuentra los videos de resultados finales. 
+
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1Vd9IfIR1OWrE1MYn9MfNjmlpP5tuE89T?usp=drive_link">
+    <img src="https://img.shields.io/badge/Google%20Drive-Abrir%20Carpeta-blue?logo=googledrive">
+  </a>
+</p>
+
 🔜 Mejoras futuras
 •	Clasificación por figuras. 
 ⚠️ Advertencia
