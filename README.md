@@ -29,6 +29,7 @@ Lista detallada de componentes y materiales con cantidades aproximadas:
 Uso del polyscope en UR5, no instalación necesaria 
 
 ## ⚙️ Montaje y Ensamblado
+<p align="justify">
 Paso1: Primero se generan los diseños de los pallets necesarios para la clasificación, en el caso del mas grande para colocar los 24 cubos de manera aleatoria de manera apilada y 2 pallets para colocar los 12 cubos correspondientes a cada material utilizado, las medidas de los pallets utilizados son los siguientes.
 
 Medidas del Pallet principal: 
@@ -70,8 +71,11 @@ Se genero la conexión entre el conveyor y el ur5, se toma  como referencia la c
    <img src="Imagenes/Cableado_ejemplo2.jpg" width="500">
 </p>
 
+</p>
 
 ## 💻 Programación
+
+<p align="justify">
 
 - El sistema inicia encendiendo la salida digital `DO[4]`, indicando el arranque de la línea o sistema automatizado.
 
@@ -100,10 +104,12 @@ Se genero la conexión entre el conveyor y el ur5, se toma  como referencia la c
 - Existen eventos automáticos asociados a `digital_in[0]`:
   - Si la entrada permanece activa, el sistema se detiene temporalmente.
   - Si la entrada se desactiva, el sistema vuelve a encenderse automáticamente.
+</p>
 
 
+## ✅Conclusión
 
-## ✅ Conclusión
+<p align="justify">
 El desarrollo de esta línea de empaque automatizada permitió implementar un sistema capaz de transportar, detectar, clasificar y acomodar productos de manera eficiente utilizando sensores y un robot industrial como el UR5. Gracias a la automatización del proceso, se logró reducir la intervención humana, disminuir errores en la clasificación y optimizar los tiempos de operación.
 Además, el proyecto integró conceptos de robótica, control industrial y automatización, demostrando cómo el uso de sensores digitales y rutinas programadas puede mejorar significativamente los procesos de producción y empaque en entornos industriales. El sistema de paletizado también permitió organizar los productos de forma ordenada y precisa, aumentando la eficiencia y seguridad del proceso.
 En conclusión, este proyecto representa una aplicación práctica de tecnologías industriales modernas, mostrando el impacto positivo de la automatización en la productividad, la calidad y la optimización de recursos dentro de una línea de producción.
@@ -114,6 +120,8 @@ A continuacion, el link de abajo es la carpeta de google drive donde se encuentr
   <a href="https://drive.google.com/drive/folders/1Vd9IfIR1OWrE1MYn9MfNjmlpP5tuE89T?usp=drive_link">
     <img src="https://img.shields.io/badge/Google%20Drive-Abrir%20Carpeta-blue?logo=googledrive">
   </a>
+</p>
+
 </p>
 
 🔜 Mejoras futuras
