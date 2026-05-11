@@ -21,7 +21,7 @@ Lista detallada de componentes y materiales con cantidades aproximadas:
 * 12x Cubos de plástico
 * 12x Cubos de metal
 * 1x Pallete 3*4
-* 2x Pallete 3*4
+* 2x Pallete 3*2
 * Relevador 24v
 * 2x pares cables banana pin 
 
@@ -60,10 +60,12 @@ Paso 4: (Opcional) Se pueden agregar carteles para darle un detalle.
 ## 🔌 Conexiones Eléctricas
 
 Se genero la conexión entre el conveyor y el ur5, se toma  como referencia la caja de salidas del ur5, fue necesario el uso de un relevador ubicado dentro de la caja de salidas y entradas. 
-
+<p align="center">
+   <img src="Imagenes/Diagrama_conexion.png" width="300">
+   <img src="Imagenes/Caja_UR5.jpg" width="300">
+</p>
 
 <p align="center">
-   <img src="Imagenes/Caja_UR5.jpg" width="300">
   <img src="Imagenes/Relevador_Ejemplo.jpg" width="300">
    <img src="Imagenes/Cableado_ejemplo2.jpg" width="500">
 </p>
@@ -115,18 +117,25 @@ A continuacion, el link de abajo es la carpeta de google drive donde se encuentr
 </p>
 
 🔜 Mejoras futuras
-•	Clasificación por figuras. 
+* Clasificación por figuras.
+
+  
 ⚠️ Advertencia
 Como se indica en la licencia MIT, este software/hardware se proporciona sin ningún tipo de garantía. Por lo tanto, ningún colaborador es responsable de cualquier daño a tus componentes, materiales, PC, etc...
 
 
 ## 👥 Autores del proyecto
-Jose Abel Ramirez Garcia
-Ashley Michelle Rosa Corral
+
+* Jose Abel Ramirez Garcia 
+* Ashley Michelle Rosa Corral
 
 ## 📬 Contacto
 ¿Tienes dudas o sugerencias?
-•	📧 Correo electrónico: 
+*	📧 Correo electrónico: 
+* ashley.rosacl@udlap.mx
+* josea.ramirezga@udlap.mx
+* cesar.martinez@udlap.mx
+  
 
 
 
