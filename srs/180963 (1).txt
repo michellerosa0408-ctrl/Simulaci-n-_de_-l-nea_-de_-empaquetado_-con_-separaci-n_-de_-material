@@ -1,0 +1,99 @@
+ Programa
+   Programa de robot
+     Ajustar DO[4]=Encender
+     Ajustar
+     MoverJ
+       Punto_de_paso_8
+     Bucle 48 veces
+       Esperar: 0.5
+       If digital_in[0]≟ True 
+         Gripper Open (1)
+         MoverJ
+           Punto_de_paso_3
+         MoverL
+           Punto_de_paso_1
+         Gripper Close (1)
+         If digital_in[1]≟ True 
+           MoverL
+             Punto_de_paso_6
+           MoverJ
+             Punto_de_paso_7
+           Palé
+             Patrón: Caja
+               Esquina1_3
+               Esquina2_3
+               Esquina3_3
+               Esquina4_3
+               Esquina5_3
+               Esquina6_3
+               Esquina7_3
+               Esquina8_3
+             SecuenciaPalé
+               Acercar_3
+               PuntoDePatrón_3
+               Gripper Move42mm (1)
+               Ajustar
+               Esperar: 0.5
+               Salir_3
+           MoverJ
+             Punto_de_paso_9
+         Else
+           MoverL
+             Punto_de_paso_6
+           MoverJ
+             Punto_de_paso_7
+           Palé
+             Patrón: Caja
+               Esquina1_2
+               Esquina2_2
+               Esquina3_2
+               Esquina4_2
+               Esquina5_2
+               Esquina6_2
+               Esquina7_2
+               Esquina8_2
+             SecuenciaPalé
+               Acercar_2
+               PuntoDePatrón_2
+               Gripper Move42mm (1)
+               Ajustar
+               Esperar: 0.5
+               Salir_2
+           MoverJ
+             Punto_de_paso_9
+       Else
+         MoverJ
+           Pick_Approach
+         Ajustar DO[0]=Encender
+         Gripper Open (1)
+         Palé
+           Patrón: Caja
+             Esquina1_1
+             Esquina2_1
+             Esquina3_1
+             Esquina4_1
+             Esquina5_1
+             Esquina6_1
+             Esquina7_1
+             Esquina8_1
+           SecuenciaPalé
+             Acercar_1
+             PuntoDePatrón_1
+             Ajustar
+             Gripper Close (1)
+             Esperar: 0.5
+             Salir_1
+         MoverJ
+           Punto_de_paso_2
+         MoverL
+           Punto_de_paso_4
+           Gripper Open (1)
+         MoverL
+           Punto_de_paso_5
+     Ajustar DO[4]=Apagar
+     Aviso: Pallet terminado. Recolectar Pallets en  Packaging Area y cargar mas  cubos.
+   Evento digital_in[0]≟ True 
+     Esperar: 1.0
+     Ajustar DO[4]=Apagar
+   Evento digital_in[0]≟ False 
+     Ajustar DO[4]=Encender
