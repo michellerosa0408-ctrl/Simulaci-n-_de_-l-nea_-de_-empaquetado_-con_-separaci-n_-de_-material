@@ -61,8 +61,10 @@ Paso 4: (Opcional) Se pueden agregar carteles para darle un detalle.
 
 Se genero la conexión entre el conveyor y el ur5, se toma  como referencia la caja de salidas del ur5, fue necesario el uso de un relevador ubicado dentro de la caja de salidas y entradas. 
 
+
 <p align="center">
-  <img src="Imagenes/Cableado_ejemplo.jpg" width="500">
+   <img src="Imagenes/Caja_UR5.jpg" width="300">
+  <img src="Imagenes/Relevador_Ejemplo.jpg" width="300">
    <img src="Imagenes/Cableado_ejemplo2.jpg" width="500">
 </p>
 
